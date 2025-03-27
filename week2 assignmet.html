@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/31313207/pexels-photo-31313207/free-photo-of-charming-street-scene-in-historic-gorlitz-germany.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+         alt="Sample Image from Pexels" width="500">
+    
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Grace Quaye</td>
+            <td>Accra, Ghana</td>
+            <td>+2334567890</td>
+            <td>gracequaye@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kimberly Quaye</td>
+            <td>Legon</td>
+            <td>+233555964760</td>
+            <td>kimberlyquaye@gmail.com</td>
+        </tr>
+        <tr>
+            <td>God's Girl</td>
+            <td>Gate</td>
+            <td>+2335444963</td>
+            <td>godsgirl@gmail.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="ghana">Ghana</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="usa">USA</option>
+        </select><br><br>
+        
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Audio Element</h2>
+    <audio controls>
+        <source src="audio-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Embedded YouTube Video -->
+    <h2>Video Element</h2>
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/QUOGDZkH9v4?si=9dayv5dCQvDGzMhS&amp;start=15" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
+</body>
+</html>
+
+
+
